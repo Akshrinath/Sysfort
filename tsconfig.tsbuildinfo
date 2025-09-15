@@ -1,0 +1,1 @@
+{"root":["./src/app.ts","./src/server.ts","./src/config/db.ts","./src/config/session.ts","./src/controllers/authcontroller.ts","./src/controllers/usercontroller.ts","./src/middleware/auth.middleware.ts","./src/routes/authroutes.ts","./src/routes/userroutes.ts","./src/types/express-session.d.ts","./src/types/express.d.ts"],"version":"5.9.2"}
