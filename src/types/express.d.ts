@@ -5,6 +5,7 @@ import { JwtPayload } from "jsonwebtoken";
 declare module "express-session" {
   interface SessionData {
     user?: { 
+      token: string;
       id: string; 
       username: string;
       email: string;

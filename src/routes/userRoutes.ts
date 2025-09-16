@@ -1,9 +1,10 @@
 import express from "express";
 import { getUsers } from "../controllers/userController";
-import { authenticateJWT } from "../controllers/authController";
+import { authenticateSessionAndJWT } from "../controllers/authController";
+
 
 const router = express.Router();
 
-router.get("/", authenticateJWT, getUsers);
+router.get("/", authenticateSessionAndJWT, getUsers);
 
 export default router;
